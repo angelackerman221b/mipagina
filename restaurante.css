@@ -1,0 +1,141 @@
+/* cuerpo de la pagina */
+
+
+body{
+    header{
+        margin: 0;
+        padding: 0;
+
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(fondo.jpg) center;
+    background-size: cover;
+    font-family:sans-serif;
+
+}
+
+    
+
+/* esto es para el color del nav */
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(255, 0, 51);
+    justify-content: space-between;
+}
+
+/* para que ciertas letras esten reslatadas  */
+.resaltado {
+    color: red; /* Cambia el color según tu preferencia */
+    font-weight: bolder; /* Cambia el estilo de fuente según tu preferencia */
+    font-weight: bold; /* Para hacer el texto más grueso */
+    font-size: 24px; /* Para hacer el texto más grande (puedes ajustar el valor según tu preferencia) */
+     
+
+  }
+
+
+
+/* cada ves que pongas el curosr en las letras del nav cambian de color */
+nav a:hover{
+    color: wheat;
+}
+
+
+/* para que las imagenes del menu esten del mimo ancho y largo */
+tbody td img{
+    width: 110px;
+    height: 100px;
+    margin-right: 10px;
+    align-items: center;
+
+    
+}
+
+/* las letras del menu sean de color deseado */
+tbody td{
+    color: rgb(250, 250, 250);
+}
+/* fondo o transparencia de */
+tbody{
+    backdrop-filter: blur(10px); /* Ajusta el valor para controlar el nivel de desenfoque */
+    background-color: rgba(17, 16, 16, 0.5); /* Agrega un fondo semitransparente para mejorar el efecto */
+ 
+}
+
+.logo img{
+    height: 50px;
+    margin-right:10px;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+
+@media(max-widh:700px){
+ header{
+    flex-direction:column;
+
+ }
+ nav{
+    padding: 10px 0px;
+    
+ }
+}
+
+
+/* aqui son el parrafo , los td y el titulo */
+
+
+.resaltado2{
+    color: rgb(255, 0, 0);
+}
+h1{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white; /* Color del texto */
+    text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+}
+
+
+#nombre Menu{
+    color: antiquewhite;
+}
+td{
+    color:  aliceblue;
+}
+thead{
+    color: antiquewhite;
+}
+p{
+    color:white;
+    font-weight: bold; /* Para hacer el texto más grueso */
+    font-size: 24px; /* Para hacer el texto más grande (puedes ajustar el valor según tu preferencia) */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white; /* Color del texto */
+    text-shadow: -3px -3px 0 black, 3px -3px 0 black, -3px 3px 0 black, 3px 3px 0 black;
+    
+}
